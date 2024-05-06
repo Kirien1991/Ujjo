@@ -1,0 +1,52 @@
+.content {
+  .wrapper {
+    display: flex;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding: 0;
+    padding-top: 20px;
+  }
+}
+
+.left {
+  width: 50%;
+  margin-right: 40px;
+  border-right: 1px solid #000000;
+
+  &__top {
+  }
+
+  &__head {
+  }
+
+  &__average {
+  }
+
+  &__chili {
+  }
+
+  &__bottom {
+  }
+
+  &__bott {
+  }
+}
+
+.right {
+  width: 50%;
+  &__top {
+    max-width: 536px;
+  }
+
+  &__text {
+    font-size: 58px;
+    text-align: center;
+  }
+
+  &__bottom {
+  }
+
+  &__basement {
+  }
+}
