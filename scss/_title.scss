@@ -1,0 +1,39 @@
+.title {
+  .wrapper {
+    display: flex;
+    padding: 58px 30px;
+  }
+
+  &__image {
+    img {
+      width: 225px;
+    }
+
+    &--right {
+      //   animation: 3s ease-in 1s infinite reverse both running rotate_scorpion;
+      transform: scaleX(
+        -1
+      ); //поворот картинки задом наперед, используем одну картинку на два блока//
+    }
+  }
+
+  &__text {
+    text-align: center;
+    padding: 11px 15px;
+    p {
+      font-size: 65px;
+      line-height: 72.58px;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+@keyframes rotate_scorpion {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
