@@ -1,7 +1,10 @@
 .title {
   .wrapper {
     display: flex;
-    padding: 58px 30px;
+    padding: 52px 30px;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
   }
 
   &__image {
