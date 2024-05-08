@@ -166,7 +166,8 @@ body {
 
 .title .wrapper {
   display: flex;
-  padding: 52px 30px;
+  padding: 48px 30px;
+  padding-top: 55px;
   border-left: 1px solid #000000;
   border-bottom: 1px solid #000000;
   border-right: 1px solid #000000;
@@ -207,6 +208,60 @@ body {
   padding-top: 21px;
   margin-bottom: 16px;
 }
+.table__cart--first {
+  position: relative;
+}
+.table__cart--first:before {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 0;
+  bottom: 0;
+  font-size: 0;
+  width: 100%;
+  background-image: url("../image/table/fire.svg");
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.table__cart--first:after {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 416px;
+  bottom: 0;
+  font-size: 0;
+  width: 100%;
+  background-image: url("../image/table/fires.svg");
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.table__cart--third {
+  position: relative;
+}
+.table__cart--third:before {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: -37px;
+  bottom: 0;
+  font-size: 0;
+  width: 100%;
+  background-image: url("../image/table/fires.svg");
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.table__cart--third::after {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 379px;
+  bottom: 0;
+  font-size: 0;
+  width: 100%;
+  background-image: url("../image/table/fire.svg");
+  background-repeat: no-repeat;
+  z-index: 2;
+}
 .table__image {
   position: relative;
 }
@@ -219,10 +274,10 @@ body {
   top: 223px;
   font-size: 0;
   width: 100%;
-  display: block;
   background-image: url("../image/table/IMAGE.svg");
   background-repeat: no-repeat;
   margin-bottom: 5px;
+  z-index: 1;
 }
 .table__image--center {
   position: relative;
@@ -236,9 +291,9 @@ body {
   top: 223px;
   font-size: 0;
   width: 100%;
-  display: block;
   background-image: url("../image/table/center.svg");
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .table__top {
   position: absolute;
@@ -270,5 +325,23 @@ body {
   left: 56px;
   font-size: 32px;
   line-height: 38.02px;
+  letter-spacing: 0.5px;
+}
+
+.scroll .wrapper {
+  padding: 0;
+}
+.scroll__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 1px 21px;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+.scroll__content p {
+  font-size: 17px;
+  line-height: 25.92px;
   letter-spacing: 0.5px;
 }

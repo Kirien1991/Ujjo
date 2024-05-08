@@ -1,0 +1,21 @@
+.scroll {
+  .wrapper {
+    padding: 0;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 1px 21px;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+
+    p {
+      font-size: 17px;
+      line-height: 25.92px;
+      letter-spacing: 0.5px;
+    }
+  }
+}
