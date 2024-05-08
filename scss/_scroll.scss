@@ -17,5 +17,25 @@
       line-height: 25.92px;
       letter-spacing: 0.5px;
     }
+
+    &--bottom {
+      padding: 23px 0 21px 1px;
+    }
+  }
+
+  &__first {
+    padding-left: 12px;
+  }
+
+  &__second {
+    padding-right: 8px;
+  }
+
+  &__third {
+    padding-right: 13px;
+  }
+
+  &__last {
+    padding-left: 1px;
   }
 }
