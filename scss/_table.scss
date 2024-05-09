@@ -152,16 +152,25 @@
 
   &__bottom {
     position: absolute;
-    top: 170px;
-    left: 64px;
+    top: 171px;
+    left: 62px;
     font-size: 32px;
     line-height: 38.02px;
     letter-spacing: 0.5px;
 
     &--bot {
       position: absolute;
-      top: 171px;
+      top: 172px;
       left: 56px;
+      font-size: 32px;
+      line-height: 38.02px;
+      letter-spacing: 0.5px;
+    }
+
+    &--right {
+      position: absolute;
+      top: 171px;
+      left: 66px;
       font-size: 32px;
       line-height: 38.02px;
       letter-spacing: 0.5px;

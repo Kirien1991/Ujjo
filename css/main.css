@@ -330,16 +330,24 @@ body {
 }
 .table__bottom {
   position: absolute;
-  top: 170px;
-  left: 64px;
+  top: 171px;
+  left: 62px;
   font-size: 32px;
   line-height: 38.02px;
   letter-spacing: 0.5px;
 }
 .table__bottom--bot {
   position: absolute;
-  top: 171px;
+  top: 172px;
   left: 56px;
+  font-size: 32px;
+  line-height: 38.02px;
+  letter-spacing: 0.5px;
+}
+.table__bottom--right {
+  position: absolute;
+  top: 171px;
+  left: 66px;
   font-size: 32px;
   line-height: 38.02px;
   letter-spacing: 0.5px;
@@ -425,12 +433,15 @@ body {
 }
 .info__first {
   max-width: 392px;
-  padding-bottom: 22px;
+  margin-bottom: 22px;
 }
 .info__first p {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
+}
+.info__twhu {
+  margin-bottom: 25px;
 }
 .info__twhu p {
   font-size: 16px;
@@ -439,7 +450,7 @@ body {
 }
 .info__second {
   max-width: 373px;
-  padding: 22px 0;
+  margin-bottom: 19px;
 }
 .info__second p {
   font-size: 16px;
