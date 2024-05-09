@@ -79,17 +79,23 @@ body {
   text-transform: uppercase;
   height: 52px;
   display: inline-block;
-  padding: 0 48px;
+  padding: 1px 48px;
 }
 .menu__link--active {
   color: #ffffff;
   background-color: #fb4b4d;
 }
 .menu__link--left {
-  padding-left: 39px;
+  padding-left: 36px;
+}
+.menu__link--second {
+  padding-right: 42px;
 }
 .menu__link--right {
   padding-left: 34px;
+}
+.menu__link--last {
+  padding: 1px 50px;
 }
 
 .content .wrapper {

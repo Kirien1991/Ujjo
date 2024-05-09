@@ -30,7 +30,7 @@
     text-transform: uppercase;
     height: 52px;
     display: inline-block;
-    padding: 0 48px;
+    padding: 1px 48px;
 
     &--active {
       color: #ffffff;
@@ -38,11 +38,19 @@
     }
 
     &--left {
-      padding-left: 39px;
+      padding-left: 36px;
+    }
+
+    &--second {
+      padding-right: 42px;
     }
 
     &--right {
       padding-left: 34px;
+    }
+
+    &--last {
+      padding: 1px 50px;
     }
   }
 }
