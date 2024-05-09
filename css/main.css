@@ -295,6 +295,23 @@ body {
   background-repeat: no-repeat;
   z-index: 1;
 }
+.table__image--right {
+  position: relative;
+}
+.table__image--right:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 22px;
+  right: 0;
+  top: 223px;
+  font-size: 0;
+  width: 100%;
+  background-image: url("../image/table/right.svg");
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  z-index: 1;
+}
 .table__top {
   position: absolute;
   top: 128px;
@@ -330,7 +347,6 @@ body {
 
 .scroll .wrapper {
   padding: 0;
-  margin-bottom: -6px;
 }
 .scroll__content {
   display: flex;
@@ -366,7 +382,7 @@ body {
   border-left: 1px solid #000000;
   border-bottom: 1px solid #000000;
   border-right: 1px solid #000000;
-  padding: 23px 20px;
+  padding: 20px 20px;
   font-size: 0;
 }
 .info .wrapper {

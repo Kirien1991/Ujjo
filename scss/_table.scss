@@ -111,6 +111,25 @@
         z-index: 1;
       }
     }
+
+    &--right {
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 22px;
+        right: 0;
+        top: 223px;
+        font-size: 0;
+        width: 100%;
+        background-image: url("../image/table/right.svg");
+        background-repeat: no-repeat;
+        margin-bottom: 5px;
+        z-index: 1;
+      }
+    }
   }
 
   &__top {
