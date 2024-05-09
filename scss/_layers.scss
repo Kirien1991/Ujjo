@@ -1,10 +1,15 @@
 .layers {
   .wrapper {
-    position: relative;
+    padding: 0;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
   }
 
-  &__image {
-    img {
-    }
+  img {
+    font-size: 0;
+    width: 100%;
+    display: block;
+    margin-top: -179px;
   }
 }

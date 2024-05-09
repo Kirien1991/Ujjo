@@ -1,0 +1,32 @@
+.foot {
+  .wrapper {
+    background-color: #cdfd3b;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    padding: 20px 93px;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__link {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+
+    &--bott {
+      font-size: 16px;
+    }
+  }
+}

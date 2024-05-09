@@ -200,9 +200,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 434px);
   gap: 25px;
-  border-left: 1px solid #000000;
   border-bottom: 1px solid #000000;
   border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
 }
 .table__cart {
   padding-top: 21px;
@@ -330,6 +330,7 @@ body {
 
 .scroll .wrapper {
   padding: 0;
+  margin-bottom: -6px;
 }
 .scroll__content {
   display: flex;
@@ -365,13 +366,9 @@ body {
   border-left: 1px solid #000000;
   border-bottom: 1px solid #000000;
   border-right: 1px solid #000000;
-  padding: 20px 20px;
+  padding: 23px 20px;
   font-size: 0;
 }
-.image img {
-  width: 100%;
-}
-
 .info .wrapper {
   padding: 0;
   border-left: 1px solid #000000;
@@ -396,10 +393,11 @@ body {
   font-weight: 400;
   line-height: 64.51px;
   letter-spacing: 0.5px;
-  align-items: center;
 }
 .info__right {
   width: 50%;
+  background-image: url("/image/info/right.svg");
+  background-repeat: no-repeat;
 }
 .info__txt {
   display: flex;
@@ -407,22 +405,16 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
+  padding: 136px;
 }
 .info__first {
   max-width: 392px;
   padding-bottom: 22px;
-  position: absolute;
-  top: 136px;
-  left: 153px;
 }
 .info__first p {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
-}
-.info__twhu {
-  position: absolute;
-  top: 277px;
 }
 .info__twhu p {
   font-size: 16px;
@@ -430,11 +422,8 @@ body {
   letter-spacing: 0.5px;
 }
 .info__second {
-  position: absolute;
-  right: 162px;
-  bottom: 294px;
   max-width: 373px;
-  padding: 5px 0;
+  padding: 22px 0;
 }
 .info__second p {
   font-size: 16px;
@@ -442,11 +431,7 @@ body {
   letter-spacing: 0.5px;
 }
 .info__third {
-  position: absolute;
-  right: 155px;
-  bottom: 112px;
   max-width: 386px;
-  padding: 18px 0;
 }
 .info__third p {
   font-size: 16px;
@@ -455,5 +440,41 @@ body {
 }
 
 .layers .wrapper {
-  position: relative;
+  padding: 0;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.layers img {
+  font-size: 0;
+  width: 100%;
+  display: block;
+  margin-top: -179px;
+}
+
+.foot .wrapper {
+  background-color: #cdfd3b;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding: 20px 93px;
+}
+.foot__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot__list {
+  list-style: none;
+}
+.foot__link {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+.foot__link--bott {
+  font-size: 16px;
 }

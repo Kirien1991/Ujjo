@@ -24,12 +24,13 @@
       font-weight: 400;
       line-height: 64.51px;
       letter-spacing: 0.5px;
-      align-items: center;
     }
   }
 
   &__right {
     width: 50%;
+    background-image: url("/image/info/right.svg");
+    background-repeat: no-repeat;
   }
 
   &__txt {
@@ -38,15 +39,13 @@
     align-items: center;
     text-align: center;
     position: relative;
+
+    padding: 136px;
   }
 
   &__first {
     max-width: 392px;
     padding-bottom: 22px;
-    position: absolute;
-    top: 136px;
-    left: 153px;
-
     p {
       font-size: 16px;
       line-height: 24px;
@@ -55,9 +54,6 @@
   }
 
   &__twhu {
-    position: absolute;
-    top: 277px;
-
     p {
       font-size: 16px;
       line-height: 24px;
@@ -66,11 +62,8 @@
   }
 
   &__second {
-    position: absolute;
-    right: 162px;
-    bottom: 294px;
     max-width: 373px;
-    padding: 5px 0;
+    padding: 22px 0;
 
     p {
       font-size: 16px;
@@ -80,11 +73,7 @@
   }
 
   &__third {
-    position: absolute;
-    right: 155px;
-    bottom: 112px;
     max-width: 386px;
-    padding: 18px 0;
 
     p {
       font-size: 16px;
